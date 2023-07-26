@@ -28,6 +28,69 @@
   color: #61dafb;
 }
 
+.titulo {
+  color: white;
+  background-color: rgb(39, 72, 145);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-img-top {
+  object-fit: contain;
+  border: 1px solid black;
+}
+
+.got-card {
+  margin: 2em;
+  border: 1px solid;
+  max-width: 350px;
+}
+
+.got-card .card-title {
+  text-align: center;
+}
+
+.got-card .card-subtitle {
+  text-align: center;
+}
+
+.icon-fav {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icon-trash {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.favorito {
+  color: red;
+}
+
+.bg-fav {
+  background-color: rgb(223, 98, 119);
+}
+
+.fav{
+  color: white;
+  padding: 1em;
+}
+
+.bi-x-lg {
+  display: flex;
+  justify-content:flex-end ;
+  cursor: pointer;
+}
+
+.footer{
+  text-align: center;
+  font-size: 200%;
+  padding: 1em;
+  font-weight: 200;
+  margin-bottom: 1em;
+  background-color: #a1a3a7;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
